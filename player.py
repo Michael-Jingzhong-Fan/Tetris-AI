@@ -6,14 +6,14 @@ import math
 class Player:
     def __init__(self):
         self.numberOfHolesWeight = -1688.5
-        self.columnMovementWeight = -0
-        self.heightRangeWeight = -2.5
-        self.totalHeightWeight = -0
+        self.columnMovementWeight = -105.5
+        self.heightRangeWeight = -10.5
+        self.totalHeightWeight = -20
         self.linesCompletedWeight = 50
-        self.rowMovementWeight = -0
-        self.smoothnessWeight = -3.5
+        self.rowMovementWeight = -100.5
+        self.smoothnessWeight = -20.5
         self.valleysWeight = -900
-        self.heightsStandardDeviationWeight = -5
+        self.heightsStandardDeviationWeight = -10
         #self.MaxHeightWeight = 500
 
     def choose_action(self, board):
